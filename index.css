@@ -1,4 +1,4 @@
-h1{
+/* /* /* h1{
     background-color: red;
 }
 h2{
@@ -37,3 +37,96 @@ div:hover{
 li:nth-of-type(1){
     background-color: blueviolet;
 }
+h1{
+    background-color: red;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+} */
+/* #parent{
+    height: 90vb;
+    width: 90vw;
+    background-color: red;
+}
+li{
+    font-size: 2em;
+}
+
+
+
+div{
+    background-color: red;
+    height: 200px;
+display: inline block;
+}
+span{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+display: inline block;
+
+}
+.one{
+width: 150px;
+height:150px;
+
+
+}
+div:nth-of-type(1){
+    background-color: red;
+    position: relative;
+    top: 5px;
+}
+div:nth-of-type(2){
+    background-color: rgb(85, 0, 255);
+    position: relative;
+    top: 50px;
+    left: 50px;
+    top: 50px;
+}
+
+div:nth-of-type(3){
+    background-color: rgb(221, 255, 0);
+    position: relative;
+    top: 5px;
+}
+ */
+ /* .container{
+    height: 2000px;
+    padding: 200px;
+    border: 10px solid red;
+}
+.box{
+    border: 5px solid green;
+    padding: 20px;
+    background-color: yellow;
+    position: sticky;
+    top: 30px;
+    
+}
+  */ 
+
+
+
+
+  div{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transition-duration: 4000ms;
+    transition-property: border-radius;
+    align-items: center;
+    justify-content: center;
+  }
+  div:hover{
+    transition-duration: 4000ms;
+    height: 400px;
+    width: 400px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+  }

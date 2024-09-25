@@ -1,0 +1,60 @@
+botton{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    front-family: 'poppins', sans-serif;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(45eg, blueviolet,pink);
+
+}
+.claculator{
+    border: 1px solid red;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: aqua;
+
+}
+
+input::placeholder{
+    color: blue;
+
+}
+
+#inputBox{
+    background-color: greenyellow;
+    font-size: 2rem;
+    color: red;
+
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 50%;
+    color: aquamarine;
+    box-shadow: -8px -8px 15px rgba(red, green, blue, alpha);
+
+}
+
+.equa1btn{
+    background: blueviolet;
+
+}
+
+.operator{
+    color-scheme: green;
+
+}

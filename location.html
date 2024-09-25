@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="location.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <form id="expense-form">
+            <input type="text" id="expense-name" placeholder="Expense-Name" required />
+            <input type="number" id="expense-amount" placeholder="Amount" required />
+            <option value="" disabled selected>select Category</option>
+            <select  id="expense-category" required >
+            <option value="food">food</option>
+            <option value="Transport">transport</option>
+            <option value="Entertainment">Entertainment</option>
+            <option value="Other">Other</option>
+            </select>
+            <input type="data" id="expense-data" required/>
+            <button type="submit">Add Expense</button>
+        </form>
+        <div class="expense-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Expense Name</th>
+                        <th>Amount</th>
+                        <th>Category</th>
+                        <th>Date</th>
+                        <th>Action</th>
+                        </tr>
+                        </thead>
+                        <tbody id="expense-list">
+                            </tbody>
+
+            </table>
+            <div class="total-amount">
+                <strong> Total: </strong>
+                $<span id="total-amount">0</span>
+            
+
+            </div>
+        </div>
+        <div class="filter">
+            <label for="filter-category">filter by Category</label>
+            <select  id="filter-category">
+                <option value="All">All</option>
+                <option value="Food">Food</option>
+                <option value="Transport">transport</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Other">Otker</option>
+
+            </select>
+
+        </div>
+    </div>
+
+<script src="location.js"></script>
+</body>
+</html>

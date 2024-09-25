@@ -1,0 +1,68 @@
+/* .parent{
+    border: 2px solid red;
+    height: 500px;
+    align-items: center;
+}
+
+.child{
+    height: 100px;
+    width: 150px;
+  transition: 3s;
+  align-items: center;
+}
+#one{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+transition-timing-function: ease-in;
+}
+#two{
+    background-color: yellow;
+    transition-timing-function: ease-in-out;
+}
+#three{
+    background-color: green;
+   transition-timing-function: ease-out; 
+}
+#four{
+    background-color: aqua;
+    transition-timing-function: ease;
+    /* align-items: center; */
+/* } */
+/* .parent:hover .child{ */
+ /* margin-left: 680px;    */
+ /* align-items: center; */
+ /* justify-items: center; */
+/* } */
+
+
+
+div{
+    border: 4px solid black;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    transition: 8s;
+    align-items: center;
+}
+div:hover{
+
+    /* transform: translateX(200px); */
+    /* transform: translateY(600px); */
+    transform: translate(200px,200px);
+    /* transform: rotateX(360deg); */
+    /* transform: rotateY(180deg); */
+    /* transform: scaleY(2); */
+    /* transform: scaleX(2); */
+    /* transform: scale(2,2); */
+}
+#one{
+    background-color: blue;
+
+}
+#two{
+    background-color: aqua;
+}
+#three{
+    background-color: blueviolet;
+}

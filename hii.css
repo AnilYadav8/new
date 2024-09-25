@@ -1,0 +1,32 @@
+.parent{
+    border:solid black;
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    transition: 1s;
+    align-items: center;
+
+}
+.parent:hover{
+    transform: translate(550px,550px);
+    /* transform: translateX(500px); */
+    /* transform: translateY(500px); */
+    /* transform: translateZ(500px); */
+}
+.one{
+    border: solid red;
+    background-color: aqua;
+   height: 300px;
+   width: 300px;
+    align-items: center;
+    
+    transition:2s;
+  /* flex-direction: row-reverse; */
+
+}
+.one:hover{
+transform: translateX(250px);
+/* transform: translateY(250px); */
+/* transform: translate(250px,250px); */
+
+}
