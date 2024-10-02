@@ -191,10 +191,11 @@
 //     <div>
 //       {
 //         Api.map((value)=>{
+//           console.log('hhiiii',value);
 //           return(<>
 //           <h1>{value.id}</h1>
 //           <h2>{value.name}</h2>
-//          <h3> <img src={value.img}/></h3>
+//          <h3> <img src={value.image} height="200px"/></h3>
 //           </>)
 //         })
 //       }
@@ -239,15 +240,45 @@
 
 
 
+import React from 'react'
+import NavBar from './NavBar'
+import Photo from './Photo'
+
+const App = () => {
+  return (
+    <div>
+      <NavBar/>
+      <Photo/>
+    </div>
+  )
+}
+
+export default App
+
+
 // import React from 'react'
-// import NavBar from './NavBar'
-// import Photo from './Photo'
+// import Form from './Form'
+// // import "./App.css"
+// // import Todo from './Todo'
+// const App = () => {
+//   return (
+//     <div>
+//       <Form/>
+//       {/* <Todo/> */}
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import Count from './Count'
 
 // const App = () => {
 //   return (
 //     <div>
-//       <NavBar/>
-//       <Photo/>
+//       <Count/>
 //     </div>
 //   )
 // }
@@ -257,46 +288,57 @@
 
 
 
+// import React from 'react'
+// import Home from './Home'
+
+// const App = () => {
+//   return (
+//     <div><Home/></div>
+//   )
+// }
+
+// export default App
 
 
 
-import React,{useState} from 'react'
 
-const App = () => {
-  let [input,Setinput]= useState({
-    name:"",
-    password:"",
-    email:""
-  })
+// import React from 'react';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import SignUp from './SignUp';
+// import Login from './Login'; 
+// import Home from './Home';
+// const App = () => {
+//   return (
+//     <Router>
+//       <div>
+//         {/* Define your routes here */}
+//         <Routes>
+//           <Route path="/" element={<Home />} />
+//           <Route path="/signup" element={<SignUp />} />
 
-  function fun1(e){
-    let{name,value}= e.target
- Setinput({...input,[name]:value})
+//           <Route path="/login" element={<Login />} />
+//         </Routes>
+        
+//       </div>
+//     </Router>
+//   );
+// }
 
-  }
-  function done(e){
-    e.preventDefault()
-    console.log("hehheh",input);
-  }    
-  return (
-    <div>
-             <fieldset>
-        <legend>form</legend>
-        <form onSubmit={done}>
-        <input type="name" name="name" value={input.name} onChange={fun1} placeholder='Enter your name' />
-        <br></br>
-<br />
-        <input type="password" name="password" value={input.password} onChange={fun1} placeholder='Enter your password' />
-        <br></br>
-   <br />
-        <input type="text" name="email" value={input.email} onChange={fun1} placeholder='Enter your email' />
-        <br></br>
-        <br />
-        <button tyye="submit">save</button>
-        </form>
-      </fieldset>
-    </div>
-  )
-}
+// export default App;
 
-export default App
+
+
+
+
+// import React from 'react'
+// import Api from './Api'
+
+// const App = () => {
+//   return (
+//     <div>
+//         <Api/>
+//     </div>
+//   )
+// }
+
+// export default App
